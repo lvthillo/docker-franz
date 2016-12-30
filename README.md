@@ -5,12 +5,12 @@ http://meetfranz.com/
 
 #### Build the image
 ```
-docker build -t lorenzvth7/franz .
+$ docker build -t lorenzvth7/franz .
 ```
 
 ### Start Franz Container
 ```
-docker run -d \
+$ docker run -d \
 --net host \
 --cpuset-cpus 0 \
 --memory 512mb \
