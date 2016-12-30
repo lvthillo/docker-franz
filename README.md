@@ -18,7 +18,7 @@ $ docker run -d \
 -e DISPLAY=unix:0 \
 --device /dev/snd \
 -v /dev/shm:/dev/shm \
--v path-on-host:/home/franz/.config/Franz \ franz #keep your franz configuration
+-v path-on-host:/home/franz/.config/Franz \ #keep your franz configuration persistent
 lorenzvth7/franz
 
 ```
