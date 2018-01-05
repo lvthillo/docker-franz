@@ -5,7 +5,7 @@ http://meetfranz.com/
 
 #### Build the image
 ```
-$ docker build -t lorenzvth7/franz .
+$ docker build -t lvthillo/franz .
 ```
 
 ### Start Franz Container
@@ -18,8 +18,8 @@ $ docker run -d \
 -e DISPLAY=unix:0 \
 --device /dev/snd \
 -v /dev/shm:/dev/shm \
-lorenzvth7/franz
+lvthillo/franz
 
 ```
 
-If you close your Franz you can restart it by restarting the container.
+
