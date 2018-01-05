@@ -3,7 +3,7 @@ Franz is a free messaging app / former Emperor of Austria and combines chat & me
 http://meetfranz.com/
 
 
-#### Build the image
+### Build the image
 ```
 $ docker build -t lvthillo/franz .
 ```
